@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/*
- * main - pints a text by using printf
- * return 0 means that everythig is correct in our program
+/**
+ * main - printf something on the screen
+ * Return: Always 0.
  */
 
-int main(void) /*main fonction*/
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
