@@ -2,7 +2,7 @@
 
 /**
  * main - prints something on the screen
- * return 0 to end the function
+ * return: 0 if success
  */
 
 int main(void)
