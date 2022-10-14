@@ -4,7 +4,8 @@
 
 /**
  * main - our program starts here
- * Return 0 - the end of our program
+ *
+ * Return: 0 - the end of our program
  */
 
 int main(void)
