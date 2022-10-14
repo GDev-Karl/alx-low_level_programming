@@ -10,14 +10,14 @@
 
 int main(void)
 {
-	char lowcae;
+	char lowcase;
 
 	for (lowcase = 'a'; lowcase <= 'z'; lowcase++)
 	{
 		if (lowcase != 'e' && lowcase != 'q')
 			putchar(lowcase);
 	}
-	putchar('\n');
+	putchar('i\n');
 
 	return(0);
 }
