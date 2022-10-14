@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - our program starts here
  * Return 0 - the end of our program
  */
+
 int main(void)
 {
 	int n;
