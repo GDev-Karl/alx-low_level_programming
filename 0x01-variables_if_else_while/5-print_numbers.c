@@ -1,0 +1,20 @@
+nclude <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - where our program start
+ *
+ * Return: 0 successs
+ */
+
+int main(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
+
+	return (0);
+}
