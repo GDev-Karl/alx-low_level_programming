@@ -5,7 +5,7 @@
 /**
  * main - where our program starts
  *
- * Retyrn: 0 success
+ * Return: 0 success
  */
 
 int main(void)
@@ -19,5 +19,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
