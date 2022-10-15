@@ -13,6 +13,10 @@ int main(void)
 	for (nbr = 0; nbr <= 9; nbr++)
 	{
 		putchar(nbr + '0');
+
+		if (nbr == 9)
+			break;
+
 		putchar(',');
 		putchar(' ');
 	}
