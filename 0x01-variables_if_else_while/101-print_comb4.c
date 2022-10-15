@@ -22,7 +22,6 @@ int main(void)
 
 				if ((i == 7) && (j == 8) && (k == 9))
 					break;
-				
 				putchar(',');
 				putchar(' ');
 
