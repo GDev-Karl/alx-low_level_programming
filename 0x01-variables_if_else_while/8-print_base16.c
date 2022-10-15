@@ -13,9 +13,9 @@ int main(void)
 	int d;
 	char lowcase;
 
-	for (d = '0'; d <= '9'; d++);
+	for (d = 0; d <= 9; d++);
 		putchar(d);
-	for (lowcase = 'a'; low <= 'f'; lowcase++)
+	for (lowcase = 'a'; lowcase <= 'f'; lowcase++)
 		putchar(lowcase);
 
 	putchar('\n');
