@@ -13,7 +13,7 @@ int main(void)
 	int d;
 	char lowcase;
 
-	for (d = 0; d <= 9; d++);
+	for (d = 0; d <= 9; d++)
 		putchar(d + '0');
 
 	for (lowcase = 'a'; lowcase <= 'f'; lowcase++)
