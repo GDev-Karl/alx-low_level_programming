@@ -20,7 +20,7 @@ void print_to_98(int n)
 			if (i != 98)
 				printf(", ");
 			else
-				_putchar('\n');
+				printf("\n");
 		}
 	}
 	else
@@ -31,7 +31,7 @@ void print_to_98(int n)
 			if (i != 98)
 				printf(", ");
 			else
-				_putchar('\n');
+				printf("\n");
 		}
 	}
 }
