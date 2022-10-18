@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <string.h>
 #include "main.h"
 /**
@@ -12,9 +11,9 @@ int main(void)
 	char *list = "_putchar";
 
 	for (int i = 0; i <= strlen(list); i++)
-		putchar(list[i]);
+		_putchar(list[i]);
 
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
