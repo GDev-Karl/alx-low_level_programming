@@ -20,9 +20,9 @@ int main(void)
 
 		a = b - a;
 
-		i++
+		i++;
 	}
 
-	printf("%ld\n"), sum);
+	printf("%ld\n", sum);
 	return (0);
 }
