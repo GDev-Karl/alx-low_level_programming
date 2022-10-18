@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - print time 
+ * jack_bauer - print time of federal agent jack bauer
  *
  * Return: 0 success
  */
