@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_tables - print the times tables
+ * times_table - print the times table
  *
  * Return: nothing
  */
@@ -19,7 +19,7 @@ void times_table(void)
 			if (p > 9)
 			{
 				m = p % 10;
-				d = (p -m) / 10;
+				d = (p - m) / 10;
 
 				_putchar(',');
 				_putchar(' ');
@@ -28,7 +28,7 @@ void times_table(void)
 			}
 			else
 			{
-				if (c != 0 )
+				if (c != 0)
 				{
 					_putchar(',');
 					_putchar(' ');
