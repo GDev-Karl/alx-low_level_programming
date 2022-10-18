@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *int  _islower(int c) - checks if the character c is lower or upper
- *
+ *_islower - checks if the character c is lower or upper
+ *@c: the parameter of a function
+
  * Return: 0 success
  */
 
