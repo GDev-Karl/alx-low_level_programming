@@ -3,7 +3,7 @@
 /**
  * main - where our progam starts
  *
- * Retrun: 0 success
+ * Return: 0 success
  */
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	int i = 0;
 	long a = 1, b = 2, sum = b;
 
-	while ( a+ b < 4000000)
+	while (a + b < 4000000)
 	{
 		b += a;
 
