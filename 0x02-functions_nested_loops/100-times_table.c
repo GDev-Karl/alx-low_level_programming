@@ -10,7 +10,6 @@
 void print_times_table(int n)
 {
 	int x, y, p;
-	
 	if (n >= 0 && n <= 14)
 	{
 		for (x = 0; x <= n; x++)
@@ -18,7 +17,6 @@ void print_times_table(int n)
 			for (y = 0; y <= n; y++)
 			{
 				p = x * y;
-				
 				if (p > 99)
 				{
 					_putchar(',');
