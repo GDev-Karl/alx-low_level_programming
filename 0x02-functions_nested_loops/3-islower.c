@@ -2,8 +2,8 @@
 
 /**
  * _islower - checks if the character c is lower or upper
- * @c: the parameter of a function
-
+ * @c: the parameter of a functio
+ *
  * Return: 0 success
  */
 
