@@ -9,19 +9,19 @@
 int main(void)
 {
 	int i = 0;
-	unsigned long int a = 1, b = 2;
+	long int a = 1, b = 2;
 
-	while (i < 98)
+	while (i < 88)
 	{
 		if (i == 0)
-			printf("%lu", a);
+			printf("%ld", a);
 		else if (i == 1)
-			printf(", %lu", b);
+			printf(", %ld", b);
 		else
 		{
 			b += a;
 			a = b - a;
-			printf(", %lu", b);
+			printf(", %ld", b);
 		}
 
 		i++;
