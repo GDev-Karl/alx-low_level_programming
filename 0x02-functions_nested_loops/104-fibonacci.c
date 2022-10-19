@@ -9,9 +9,9 @@
 int main(void)
 {
 	int i = 0;
-	long int a = 1, b = 2;
+	long int a = 1, b = 2, c;
 
-	while (i < 85)
+	while (i < 98)
 	{
 		if (i == 0)
 			printf("%ld", a);
@@ -19,9 +19,10 @@ int main(void)
 			printf(", %ld", b);
 		else
 		{
-			b += a;
-			a = b - a;
-			printf(", %ld", b);
+			c = a + b;
+			a =  b;
+			b = c;
+			printf(", %ld", c);
 		}
 
 		i++;
