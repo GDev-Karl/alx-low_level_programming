@@ -2,7 +2,6 @@
 
 /**
  * main - where our program starts
- *
  * Return: 0 success
  */
 
@@ -25,8 +24,7 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-
 	printf("\n");
-
+	
 	return (0);
 }
