@@ -2,6 +2,9 @@
 
 /**
  * main - where our program starts
+ * 3 multiples print Fizz instead of the number
+ * 5 multiples print Buzz instead of the number
+ * 3 & 5 multiples print FizzBuzz instead of the number
  * Return: 0 success
  */
 
@@ -24,6 +27,7 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
+	
 	printf("\n");
 	
 	return (0);
