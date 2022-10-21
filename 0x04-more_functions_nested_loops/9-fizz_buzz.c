@@ -17,7 +17,7 @@ int main(void)
 		if (i == 100)
 			printf("%s", b);
 		else if ((i % 3 == 0) && (i % 5 == 0))
-			printf("%s %s", f, b);
+			printf("%s%s ", f, b);
 		else if (i % 3 == 0)
 			printf("%s ", f);
 		else if (i % 5 == 0)
