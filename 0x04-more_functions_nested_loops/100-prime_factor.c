@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	long int n;
-	n = 612852475143;
+	long int n = 612852475143;
 	long int i;
 
 	for (i = 2; i < n; i++)
