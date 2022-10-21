@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pint_triangle
+ * pint_triangle - display a trinagle
  * @size: siez of triangle
  *
  * Return: nothing
