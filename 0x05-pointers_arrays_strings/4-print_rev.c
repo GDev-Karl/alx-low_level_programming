@@ -12,6 +12,7 @@ void print_rev(char *s)
 {
 	int i, j;
 	char invers[100];
+	long unsigned k;
 
 	for (i = strlen(s) - 1; i >= 0; i--)
 	{
@@ -19,8 +20,8 @@ void print_rev(char *s)
 		j++;
 	}
 
-	for (i = 0; i <= strlen(invers) - 1; i++)
-		_putchar(invers[i]);
+	for (k = 0; k <= strlen(invers) - 1; k++)
+		_putchar(invers[k]);
 
 	_putchar('\n');
 }
