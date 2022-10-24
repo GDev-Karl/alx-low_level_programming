@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_new - print a string
- * @s: parameter
+ * _puts - print a string
+ * @str: parameter
  *
  * Return: nothing
  */
