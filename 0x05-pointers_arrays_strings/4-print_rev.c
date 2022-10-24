@@ -10,10 +10,10 @@
 
 void print_rev(char *s)
 {
-	unsigned int i, j;
+	int i, j;
 	char invers[100];
 
-	for (i = strlen(s) - 1; i >= 0; i++)
+	for (i = strlen(s) - 1; i >= 0; i--)
 	{
 		invers[j] = s[i];
 		j++;
