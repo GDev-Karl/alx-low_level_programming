@@ -7,7 +7,7 @@
  * Return: an integer
  */
 
-int _atoi(cahr *s)
+int _atoi(char *s)
 {
 	int i, j, n, m;
 
