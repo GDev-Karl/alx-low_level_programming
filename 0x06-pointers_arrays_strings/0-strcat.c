@@ -8,8 +8,7 @@
  * Return: an arrays of char
  */
 
-char *_strcat(char 
-		*dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, len = 0;
 
@@ -21,8 +20,8 @@ char *_strcat(char
 		dest[len] = src[i];
 		len++;
 	}
-
+	
 	dest[len] = '\0';
-
+	
 	return (dest);
 }
