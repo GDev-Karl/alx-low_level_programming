@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strbcpy - copy a string to another at most n byte
+ * _strncpy - copy a string to another at most n byte
  * @dest: destination string
  * @src: source string
  * @n: numbe of byte
@@ -11,19 +11,13 @@
 
 char *_strncpy(cahr char *dest, char *src, int n)
 {
-	int i = 0;
+	int i;
 
-	while (i < n && src[i] != '\0')
-	{
+	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[i] = src[i];
-		i++;
-	}
 
-	while (i < n)
-	{
+	for ( ; i < n; i++)
 		dest[i] = '\0';
-		i++;
-	}
 
-	return (dest);
+	return(dest);
 }
