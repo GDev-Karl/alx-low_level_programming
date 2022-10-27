@@ -10,20 +10,20 @@
 char *rot13(char *s)
 {
 	int i, j;
-	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char alp[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char rot[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 52; j++)
 		{
-			if (a[j] == s[i])
+			if (alp[j] == s[i])
 			{
-				s[i] = b[j];
+				s[i] = rot[j];
 				break;
 			}
 		}
 	}
 
-	retun (s);
+	return (s);
 }
