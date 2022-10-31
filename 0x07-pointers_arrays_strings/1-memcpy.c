@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _memcpy - copy string to another
  * @dest: destination
  * @src: source
  * @n: byte
