@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * _strpbrk - searches a string for any of a set of bytes
+ * @s: string parameter
+ * @accept: other string parameter
+ *
+ * Return: a pointer on a char
+ */
+
 char *_strpbrk(cahr *s, char *accept)
 {
 	unsigned int i, j;
@@ -17,5 +25,5 @@ char *_strpbrk(cahr *s, char *accept)
 	}
 	
 
-	return (0);
+	return ('\0');
 }
