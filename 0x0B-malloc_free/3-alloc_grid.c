@@ -1,3 +1,5 @@
+#inlude "main.h"
+
 /**
  * alloc_grid - allocate memory for a grid.
  * @width: width of the array.
