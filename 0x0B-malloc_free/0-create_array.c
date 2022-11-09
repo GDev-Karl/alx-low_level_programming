@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * crete_array - creates an array of chars, and initializes it
+ * create_array - creates an array of chars, and initializes it
  * @size: size of array
  * @c: character
  *
@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 
-	s = malloc (sizeof(c) * size);
+	s = malloc(sizeof(c) * size);
 
 	if (s == NULL)
 		return (NULL);
