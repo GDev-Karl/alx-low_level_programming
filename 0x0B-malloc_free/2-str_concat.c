@@ -34,9 +34,8 @@ char *str_concat(char *s1, char *s2)
 
 	for (k = 0; k < i; k++)
 		str[k] = s1[k];
-
+	
 	stop = j;
-    
 	for (j = 0; j <= stop; k++, j++)
 		str[k] = s2[j];
 
