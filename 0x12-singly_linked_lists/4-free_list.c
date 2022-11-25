@@ -3,17 +3,17 @@
 /**
  * free_list - frees a list
  * @head: head of the linked list.
- * Return: no return.
+ * Return: nothing
  */
 
 void free_list(list_t *head)
 {
-    list_t *current;
+    list_t *tmp = head;
 
-    while ((current = head) != NULL)
+    while (tmp != NULL)
     {
         head = head->next;
-        free(current->str);
-        free(current);
+        free(tmp->str);
+        free(tmp);
     }
 }
