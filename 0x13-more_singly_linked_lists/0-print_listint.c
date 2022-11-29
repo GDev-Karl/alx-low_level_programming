@@ -2,8 +2,8 @@
 
 /**
  * print_listint - prit elements of a list
- *
  * @h: list to print
+ *
  * Return: size of h
  */
 
@@ -13,7 +13,7 @@ size_t print_listint(const listint_t *h)
 
     while (h)
     {
-        printf("%d \n", h->n);
+        printf("%d\n", h->n);
         h = h->next;
         size++;
     }
