@@ -6,15 +6,15 @@
  *Return: void
  */
 
-void _puts_recirsion(char *a)
+void _puts_recursion(char *a)
 {
-    if (*a == '\0')
+  if (*a == '\0')
     {
-        _putchar('\n');
+      _putchar('\n');
     }
     else
     {
         _putchar(*a);
-        _putcahr(a+1);
+        _puts_recursion(a+1);
     }
 }
