@@ -13,7 +13,7 @@ int evaluate_num(int num, int iterator)
     if (iterator == num - 1)
         return (1);
 
-    else if (num % iterator == 0
+    else if (num % iterator == 0)
         return (0);
 
     if (num % iterator != 0)
