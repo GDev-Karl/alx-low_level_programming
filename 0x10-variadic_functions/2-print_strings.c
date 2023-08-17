@@ -9,15 +9,15 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list valist;
+	va_list ptr_valist;
 	unsigned int i;
 	char *str;
 
-	va_start(valist, n);
+	va_start(ptr_valist, n);
 
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg(valist, char *);
+		str = va_arg(ptr_valist, char *);
 
 		if (str)
 			printf("%s", str);
@@ -29,6 +29,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 				printf("%s", separator);
 	}
 
+	va_end(ptr_valist);
 	printf("\n");
-	va_end(valist);
 }
