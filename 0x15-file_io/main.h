@@ -14,5 +14,10 @@
 ssize_t read_textfile(const char *filename, size_t letters);
 int create_file(const char *filename, char *text_content);
 int append_text_to_file(const char *filename, char *text_content);
+void exit_with_error(int code, const char *message, const char *arg);
+void exit_with_usage_error(void);
+int open_file_for_reading(const char *file_name);
+int open_file_for_writing(const char *file_name);
+void copy_file_contents(int source_fd, int dest_fd);
 
 #endif
