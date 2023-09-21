@@ -1,10 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 
-void my_dprintf(int fd, const char *format, const char *arg) {
-    char buffer[1024];
-    snprintf(buffer, sizeof(buffer), format, arg);
-    write(fd, buffer, strlen(buffer));
+/**
+ * my_dprintf - my own dprintf
+ * @fd: the name of the file
+ * @format: the format of the file
+ * @arg: argument
+ *
+ * Return: the file after reading
+*/
+void my_dprintf(int fd, const char *format, const char *arg)
+{
+	char buffer[1024];
+
+	snprintf(buffer, sizeof(buffer), format, arg);
+	write(fd, buffer, strlen(buffer));
 }
 
 /**
